@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="cgpa.css">
+</head>
+<body>
+<div class="container">
+    <h2> Automatic CGPA Calculator</h2>
+<table id="gradeTable">
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Credits</th>
+            <th>Grade</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+<button onclick="addRow()">+ Add Subject</button>
+<div class="result">
+    <h3>Total Credits: <span id="totalCredits">0</span></h3>
+    <h3>CGPA: <span id="cgpa">0.00</span></h3>
+</div>
+</div>
+<script src="cgpa.js"></script>
+</body>
+</html>
